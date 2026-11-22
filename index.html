@@ -123,7 +123,7 @@ async function baeminApi(action,params){params=params||{};if(!params.token){try{
 
 
 var KAKAO_REST_API_KEY='e490cc3acce1987e8d64fb4a3c063e99';
-var KAKAO_REDIRECT_URI='https://pdm0809.github.io/baemin-supabase/';
+var KAKAO_REDIRECT_URI='https://pdm0809.github.io/baemin-board-7k2x/';
 function doKakaoLogin(){
   var url='https://kauth.kakao.com/oauth/authorize?client_id='+encodeURIComponent(KAKAO_REST_API_KEY)+'&redirect_uri='+encodeURIComponent(KAKAO_REDIRECT_URI)+'&response_type=code&scope=profile_nickname';
   location.href=url;
